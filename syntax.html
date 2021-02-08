@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Documentation</title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+</head>
+
+<div id="page">
+  <header id="header">
+</div>
+
+<nav id="nav-bar">
+  <ul>
+    <li><a class="nav-link" href="index.html">CSS Introduction</a></li>
+    <li><a class="nav-link" href="syntax.html">Basic CSS Syntax</a></li>
+    <li><a class="nav-link" href="module.html">CSS Modules</a></li>
+    <li><a class="nav-link" href="spes.html">CSS Specifications</a></li>
+    <li><a class="nav-link" href="ref.html">References</a></li>
+  </ul>
+</nav>
+</header>
+
+<body>
+	<h1> CSS Syntax</h1>
+	<p class="h">
+	CSS is a rule-based language — you define rules specifying groups of styles that should be applied to particular elements or groups of elements on your web page. For example "I want the main heading on my page to be shown as large red text."</p><br/>
+
+	<p class="s">
+	The following code shows a very simple CSS rule that would achieve the styling described above:</p>
+
+	<div class="w3-panel w3-card w3-light-grey"> 
+		</div>
+    <div class="code">
+         h1 {<br> color: red;<br>
+         font-size: 5em; <br>  }
+  </div>
+   <p class="f">
+    	The rule opens with a selector . This selects the HTML element that we are going to style. In this case we are styling level one headings <code> &lt;h1&gt;.</p>
+
+   <p class="u">
+   We then have a set of curly braces { }. Inside those will be one or more declarations, which take the form of property and value pairs. Each pair specifies a property of the element(s) we are selecting, then a value that we'd like to give the property.</p>
+
+   <p class="y">
+   Before the colon, we have the property, and after the colon, the value. CSS properties have different allowable values, depending on which property is being specified. In our example, we have the color property, which can take various color values. We also have the font-size property. This property can take various size units as a value.</p>
+
+   <p class="q">
+   A CSS stylesheet will contain many such rules, written one after the other.</p>
+
+   <div class="code">
+         h1 {<br> color: red;<br>
+         font-size: 5em; <br>  } <br>
+         p { <br> color: black;<br> }
+  </div>
+</code>
+</p>
+</body>
+</div>
+</html>
+
+
+
+
